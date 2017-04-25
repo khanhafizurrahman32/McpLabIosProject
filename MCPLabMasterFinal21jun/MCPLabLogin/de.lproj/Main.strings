@@ -1,0 +1,231 @@
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "0bn-7k-lQC"; */
+"0bn-7k-lQC.placeholder" = "Passwort";
+
+/* Class = "UIButton"; normalTitle = "LOGIN"; ObjectID = "0mc-nt-CwD"; */
+"0mc-nt-CwD.normalTitle" = "ANMELDEN";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "0q9-50-RNS"; */
+"0q9-50-RNS.title" = "Menü";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "1J4-Ve-7xC"; */
+"1J4-Ve-7xC.placeholder" = "Benutzername";
+
+/* Class = "UILabel"; text = "You can contact me at number:"; ObjectID = "1Zw-Fn-3Tj"; */
+"1Zw-Fn-3Tj.text" = "Du kannst unter dieser Nummer kontaktieren:";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "3Fj-M5-jDm"; */
+"3Fj-M5-jDm.title" = "Menü";
+
+/* Class = "UILabel"; text = "Could you please reserve the item for me?"; ObjectID = "7ea-MI-bpj"; */
+"7ea-MI-bpj.text" = "Kannst du mir den Gegenstand reservieren?";
+
+/* Class = "UILabel"; text = "Contact:"; ObjectID = "9kW-Lq-Nls"; */
+"9kW-Lq-Nls.text" = "Kontakt";
+
+/* Class = "UIButton"; normalTitle = "Current Location"; ObjectID = "24C-OA-pMI"; */
+"24C-OA-pMI.normalTitle" = "Aktueller Standort";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Bxq-PN-M69"; */
+"Bxq-PN-M69.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Attach photo"; ObjectID = "Fgn-bM-4oh"; */
+"Fgn-bM-4oh.normalTitle" = "Foto Anfügen";
+
+/* Class = "UINavigationItem"; title = "Registration"; ObjectID = "HBD-ny-jLh"; */
+"HBD-ny-jLh.title" = "Anmeldung";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "HD5-zD-4ul"; */
+"HD5-zD-4ul.title" = "Menü";
+
+/* Class = "UILabel"; text = "We can meet in... at..."; ObjectID = "HEr-ti-65P"; */
+"HEr-ti-65P.text" = "Wir können uns um... in... treffen";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "I0O-2L-mPE"; */
+"I0O-2L-mPE.normalTitle" = "Wählen";
+
+/* Class = "UINavigationItem"; title = "Place a request"; ObjectID = "I96-y6-3R6"; */
+"I96-y6-3R6.title" = "Erstelle ein Gesuch";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "Idh-E6-nul"; */
+"Idh-E6-nul.title" = "Menü";
+
+/* Class = "UILabel"; text = "Place a request"; ObjectID = "Ijt-Yh-vfA"; */
+"Ijt-Yh-vfA.text" = "Erstelle ein Gesuch";
+
+/* Class = "UILabel"; text = "When and where can we meet?"; ObjectID = "JBn-AM-ho7"; */
+"JBn-AM-ho7.text" = "Wo und wann können wir uns treffen?";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Jgf-EX-0Qy"; */
+"Jgf-EX-0Qy.placeholder" = "Passwort";
+
+/* Class = "UITextField"; placeholder = "Other Information"; ObjectID = "Juh-hx-6Uf"; */
+"Juh-hx-6Uf.placeholder" = "Andere Informationen";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "KyQ-7f-9zn"; */
+"KyQ-7f-9zn.text" = "Kategorie:";
+
+/* Class = "UILabel"; text = "Your requests"; ObjectID = "Kze-kC-kAo"; */
+"Kze-kC-kAo.text" = "Ihre Gesuche";
+
+/* Class = "UIButton"; normalTitle = "Send"; ObjectID = "LfK-xI-K3B"; */
+"LfK-xI-K3B.normalTitle" = "Senden";
+
+/* Class = "UILabel"; text = "Your profile"; ObjectID = "Lnd-90-vvl"; */
+"Lnd-90-vvl.text" = "Ihr Profil";
+
+/* Class = "UIButton"; normalTitle = "REGISTER"; ObjectID = "MwB-zR-vgF"; */
+"MwB-zR-vgF.normalTitle" = "REGISTRIEREN";
+
+/* Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "N9t-ly-uBY"; */
+"N9t-ly-uBY.placeholder" = "Bestätigen sie ihr Passwort";
+
+/* Class = "UILabel"; text = "Do you speak English?"; ObjectID = "NO3-0l-PqO"; */
+"NO3-0l-PqO.text" = "Sprichst du Englisch?";
+
+/* Class = "UITextField"; placeholder = "Item Name"; ObjectID = "NfJ-ZI-Qi3"; */
+"NfJ-ZI-Qi3.placeholder" = "Name des Gegenstandes";
+
+/* Class = "UINavigationItem"; title = "Your profile"; ObjectID = "Nya-NI-QAV"; */
+"Nya-NI-QAV.title" = "Ihr Profil";
+
+/* Class = "UILabel"; text = "Within the Distance"; ObjectID = "OoB-1J-py2"; */
+"OoB-1J-py2.text" = "Entfernung:";
+
+/* Class = "UITextField"; placeholder = "Item Name"; ObjectID = "QBt-cj-CnJ"; */
+"QBt-cj-CnJ.placeholder" = "Name des Gegenstandes";
+
+/* Class = "UILabel"; text = "Amount:"; ObjectID = "Rse-2B-WmX"; */
+"Rse-2B-WmX.text" = "Menge:";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "SWL-KP-G10"; */
+"SWL-KP-G10.title" = "Menü";
+
+/* Class = "UIButton"; normalTitle = "Choose location"; ObjectID = "SWT-Tw-wyb"; */
+"SWT-Tw-wyb.normalTitle" = "Standort wählen";
+
+/* Class = "UILabel"; text = "Place a donation"; ObjectID = "TfJ-tF-EkI"; */
+"TfJ-tF-EkI.text" = "Geben Sie eine Spende auf";
+
+/* Class = "UILabel"; text = "Can you share your contacts please?"; ObjectID = "Tp0-93-RNm"; */
+"Tp0-93-RNm.text" = "Kannst du bitte deine Kontaktdaten teilen?";
+
+/* Class = "UILabel"; text = "Search an item"; ObjectID = "U1Z-Vz-53G"; */
+"U1Z-Vz-53G.text" = "Suchen Sie einen Artikel";
+
+/* Class = "UIButton"; normalTitle = "Send message"; ObjectID = "ULo-9f-hSP"; */
+"ULo-9f-hSP.normalTitle" = "Nachricht schicken";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "VZQ-4g-3Av"; */
+"VZQ-4g-3Av.normalTitle" = "Einreichen";
+
+/* Class = "UIButton"; normalTitle = "Attach photo"; ObjectID = "VpK-qF-vp4"; */
+"VpK-qF-vp4.normalTitle" = "Foto anfügen";
+
+/* Class = "UILabel"; text = "Other info:"; ObjectID = "Vvh-3d-aFE"; */
+"Vvh-3d-aFE.text" = "Andere Info:";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "XQE-KM-KZu"; */
+"XQE-KM-KZu.title" = "Menü";
+
+/* Class = "UILabel"; text = "Welcome,"; ObjectID = "ZuT-M8-nEQ"; */
+"ZuT-M8-nEQ.text" = "Willkommen,";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "agj-df-lVo"; */
+"agj-df-lVo.placeholder" = "Menge";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "bIc-hW-Ny0"; */
+"bIc-hW-Ny0.text" = "Kategorie:";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "bYt-Es-Uxb"; */
+"bYt-Es-Uxb.title" = "Menü";
+
+/* Class = "UIButton"; normalTitle = "Search"; ObjectID = "c5M-5j-ff7"; */
+"c5M-5j-ff7.normalTitle" = "Suchen";
+
+/* Class = "UILabel"; text = "Thank you very much"; ObjectID = "cfj-LL-yg3"; */
+"cfj-LL-yg3.text" = "Vielen Dank";
+
+/* Class = "UIButton"; normalTitle = "Choose location"; ObjectID = "cra-H3-xWm"; */
+"cra-H3-xWm.normalTitle" = "Standort wählen";
+
+/* Class = "UIButton"; normalTitle = "LOGOUT"; ObjectID = "eYf-an-Aq9"; */
+"eYf-an-Aq9.normalTitle" = "AUSLOGGEN";
+
+/* Class = "UITextField"; placeholder = "Name of Item"; ObjectID = "flr-sM-ds5"; */
+"flr-sM-ds5.placeholder" = "Name des Gegenstandes";
+
+/* Class = "UILabel"; text = "Hello"; ObjectID = "g55-4k-D3y"; */
+"g55-4k-D3y.text" = "Hallo";
+
+/* Class = "UITextField"; placeholder = "Other information"; ObjectID = "gpZ-47-vHw"; */
+"gpZ-47-vHw.placeholder" = "Andere Informationen";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "icb-In-p4f"; */
+"icb-In-p4f.normalTitle" = "Einreichen";
+
+/* Class = "UINavigationItem"; title = "Chat with Martha"; ObjectID = "irg-k3-08U"; */
+"irg-k3-08U.title" = "Geplauder mit Martha";
+
+/* Class = "UITextField"; placeholder = "Amount"; ObjectID = "jJa-Iq-d8y"; */
+"jJa-Iq-d8y.placeholder" = "Menge";
+
+/* Class = "UIButton"; normalTitle = "Details"; ObjectID = "jkB-Fx-iwE"; */
+"jkB-Fx-iwE.normalTitle" = "Nähere";
+
+/* Class = "UILabel"; text = "Is the item still available?"; ObjectID = "kQI-dg-xyT"; */
+"kQI-dg-xyT.text" = "Ist der Gegenstand noch verfügbar?";
+
+/* Class = "UINavigationItem"; title = "List of requests"; ObjectID = "lUY-ac-sUS"; */
+"lUY-ac-sUS.title" = "Gesuche";
+
+/* Class = "UINavigationItem"; title = "Item details"; ObjectID = "m8v-fM-QkZ"; */
+"m8v-fM-QkZ.title" = "Artikeldetails";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "nok-Eb-uNe"; */
+"nok-Eb-uNe.placeholder" = "Benutzername";
+
+/* Class = "UILabel"; text = "Have a nice day"; ObjectID = "nu9-1F-0ji"; */
+"nu9-1F-0ji.text" = "Schönen Tag";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "oBh-aP-9NB"; */
+"oBh-aP-9NB.text" = "Benutzername";
+
+/* Class = "UINavigationItem"; title = "Your profile"; ObjectID = "ocO-nN-F7p"; */
+"ocO-nN-F7p.title" = "Ihr Profil";
+
+/* Class = "UILabel"; text = "Don't have an account? Register"; ObjectID = "pvD-NJ-qcB"; */
+"pvD-NJ-qcB.text" = "Noch kein Profil? Melden Sie sich an";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "qH6-CN-2xQ"; */
+"qH6-CN-2xQ.title" = "Menü";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "r1o-aY-Fuq"; */
+"r1o-aY-Fuq.title" = "Menü";
+
+/* Class = "UINavigationItem"; title = "Search an item"; ObjectID = "r8d-W6-UDl"; */
+"r8d-W6-UDl.title" = "Suchen Sie einen Artikel";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "r9j-uE-3HG"; */
+"r9j-uE-3HG.text" = "0";
+
+/* Class = "UINavigationItem"; title = "Place a donation"; ObjectID = "rFs-6j-prO"; */
+"rFs-6j-prO.title" = "Geben Sie eine Spende auf";
+
+/* Class = "UILabel"; text = "Your donations"; ObjectID = "rOs-Ke-01e"; */
+"rOs-Ke-01e.text" = "Ihre Spenden";
+
+/* Class = "UITextField"; placeholder = "Type your message here..."; ObjectID = "syB-hi-rOq"; */
+"syB-hi-rOq.placeholder" = "Schreiben Sie ihre Nachricht hier";
+
+/* Class = "UILabel"; text = "Category:"; ObjectID = "twB-5V-fjP"; */
+"twB-5V-fjP.text" = "Kategorie:";
+
+/* Class = "UIButton"; normalTitle = "Connect"; ObjectID = "vnQ-NL-7Wd"; */
+"vnQ-NL-7Wd.normalTitle" = "Verbinden";
+
+/* Class = "UIBarButtonItem"; title = "Menu"; ObjectID = "xiO-eU-Obu"; */
+"xiO-eU-Obu.title" = "Menü";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "zVN-53-0Pm"; */
+"zVN-53-0Pm.title" = "Artikel";
+

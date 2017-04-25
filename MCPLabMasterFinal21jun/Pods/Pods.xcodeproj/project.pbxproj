@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182805194D6A78CE13537CC5EB246629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		38DEF968921EF6D0DCF8FA9666B179BD /* Pods-MCPLabLogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E21582C459D717082CCB826C9E7D59 /* Pods-MCPLabLogin-dummy.m */; };
+		A216CFAE1199DACD548923097AAE47E0 /* Pods-MCPLabLogin-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E16BEDD18C6243C89CA0DB80967890D3 /* Pods-MCPLabLogin-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE739B5A12F5F52C3CA33C5613938B7F /* Pods-MCPLabLoginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 032955B6481D2A903119B97514813B80 /* Pods-MCPLabLoginTests-dummy.m */; };
+		E106FD106495F1A2611B19F89B97EFD9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F3BD1D0E2562D3EE63212DA2A9328550 /* Pods-MCPLabLoginTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 737A310839B0A9A2494272DD078752FE /* Pods-MCPLabLoginTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		032955B6481D2A903119B97514813B80 /* Pods-MCPLabLoginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCPLabLoginTests-dummy.m"; sourceTree = "<group>"; };
+		03689C417845BF129EDCD8BEFC9FDAE4 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		0562A09F132F45237533EE2BB89D3144 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		29E21582C459D717082CCB826C9E7D59 /* Pods-MCPLabLogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MCPLabLogin-dummy.m"; sourceTree = "<group>"; };
+		2C2634F731BF53A7A865F1312E7B6827 /* Pods-MCPLabLoginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPLabLoginTests-resources.sh"; sourceTree = "<group>"; };
+		308EAE607750A03799D590BA9BB27624 /* Pods-MCPLabLogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCPLabLogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		30FEED3412FE82065B7BAD15E580117D /* Pods-MCPLabLoginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPLabLoginTests-frameworks.sh"; sourceTree = "<group>"; };
+		3285E735F6CD4C17B478C527338B5A86 /* Pods-MCPLabLogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPLabLogin-frameworks.sh"; sourceTree = "<group>"; };
+		413F5F8BEBCBC816091E43633874C890 /* Pods-MCPLabLoginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCPLabLoginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44A3BA46C93D467F8AC8110CA6B07610 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		4AEA2772CC574D6967520754D7391237 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = Frameworks/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		6F0A1FB5E8EACE1B102A19432FBA1743 /* Pods-MCPLabLogin.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCPLabLogin.modulemap"; sourceTree = "<group>"; };
+		737A310839B0A9A2494272DD078752FE /* Pods-MCPLabLoginTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCPLabLoginTests-umbrella.h"; sourceTree = "<group>"; };
+		7716201FD387B6D0A305C95215616A9A /* GoogleParsingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleParsingUtilities.framework; path = Frameworks/GoogleParsingUtilities.framework; sourceTree = "<group>"; };
+		77D8CFD62DBE7B74765C681924FA3310 /* GoogleIPhoneUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleIPhoneUtilities.framework; path = Frameworks/GoogleIPhoneUtilities.framework; sourceTree = "<group>"; };
+		7C415A599B669AC062F7F5870C9F7F65 /* Pods-MCPLabLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPLabLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		7C4F50420ADA8C3023A4C452505EC067 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		86DD4170CBC7BCF5E4DD031956B6E168 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Frameworks/FirebaseDatabase.framework; sourceTree = "<group>"; };
+		8A2BA0A18657ADFF98EC02B44482DD42 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		8F3EB0713F8EB7465904BF4B4881C746 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseRemoteConfig.framework; path = Frameworks/FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		91FE1C734ED5478A578556DEA6614DDC /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9715B83508EA112049311B4B39E53673 /* Pods-MCPLabLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPLabLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		9918D1E85CBE14E5324E65997E658925 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A864FEC897594EADE9EB1EA872BCF56 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FD5FE5774D3FACEEDCF6C082D90712 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseCrash.framework; path = Frameworks/FirebaseCrash.framework; sourceTree = "<group>"; };
+		AAF3A4BBDF369F163BCA8E46EA6D108C /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseStorage.framework; path = Frameworks/FirebaseStorage.framework; sourceTree = "<group>"; };
+		B83AF2A7D82D196446355FB37A963685 /* Pods-MCPLabLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPLabLogin.release.xcconfig"; sourceTree = "<group>"; };
+		C0E5440F00BC34AF612BB7B333BA1FB5 /* Pods-MCPLabLoginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MCPLabLoginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C375CF6F773746B49BF992F75E219380 /* Pods-MCPLabLogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MCPLabLogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CAD5CFFFCB8D6183A72239D3C76FBF90 /* Pods-MCPLabLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MCPLabLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC326843B0E4859A03F99BB67FD75BC9 /* Pods_MCPLabLoginTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCPLabLoginTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DCFCAC3822AC5B6CF049DF7CA37EF4D5 /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		E16BEDD18C6243C89CA0DB80967890D3 /* Pods-MCPLabLogin-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MCPLabLogin-umbrella.h"; sourceTree = "<group>"; };
+		EBC71340B264FDF526647D0F10543B07 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		EE6A23C2511B580F1BFAD5E8210153FF /* Pods-MCPLabLoginTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MCPLabLoginTests.modulemap"; sourceTree = "<group>"; };
+		F2EEA5BB5811B8B3E1D59B4CF68EB6F4 /* Pods-MCPLabLogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MCPLabLogin-resources.sh"; sourceTree = "<group>"; };
+		F62F75BCF905AF1E8C44DFBD36E1A5AD /* Pods_MCPLabLogin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MCPLabLogin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F859552E2784A3F7EC695253871110CF /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04356206101F1B639FB0731B7A42BD22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E106FD106495F1A2611B19F89B97EFD9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C377F97B02CE233FDEAA28B146E99E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182805194D6A78CE13537CC5EB246629 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		095B5EBCF5AF2C186D3608CB207B33F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AEA2772CC574D6967520754D7391237 /* GoogleMobileAds.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B3A712249C11D41AF14715E4B77263B /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7B7FD1F885E16315E9EE7982B1AF7E2E /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		13EEF89F1A4072ADBF2DC51209568740 /* FirebaseRemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				C7563635E6BD6181F8A515207BA620CA /* Frameworks */,
+			);
+			path = FirebaseRemoteConfig;
+			sourceTree = "<group>";
+		};
+		19B1F34C14CB29692D9CC8AC455D6984 /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				1EEC8316B7BE6F0397940FC05EB0A843 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		1EEC8316B7BE6F0397940FC05EB0A843 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBC71340B264FDF526647D0F10543B07 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F156283D73640AF5DAF27AC4B7D2F78 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				B107378C08EABA5374539C25CF6799B5 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		20F0D7A5232BC121321BE9A5CCB11524 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				F859552E2784A3F7EC695253871110CF /* FIRInstanceID.h */,
+				6E7B73488377CBE6E75ACFC527E8CA8A /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		23A35E0E8B1612C768730EDA3B75E474 /* GoogleParsingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				65A6B12380F39E40348A6A0A3EB63BCE /* Frameworks */,
+			);
+			path = GoogleParsingUtilities;
+			sourceTree = "<group>";
+		};
+		26E5F9E09BED051BD9A0D0D7205C2EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DD4170CBC7BCF5E4DD031956B6E168 /* FirebaseDatabase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4D321E0E7A8EDB0818FDBC50A8546430 /* GoogleIPhoneUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8231F8E758ECEDE3DA9111E34F506628 /* Frameworks */,
+			);
+			path = GoogleIPhoneUtilities;
+			sourceTree = "<group>";
+		};
+		5D975EED04ED06703F137E041D73810C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A7FD5FE5774D3FACEEDCF6C082D90712 /* FirebaseCrash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65A6B12380F39E40348A6A0A3EB63BCE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7716201FD387B6D0A305C95215616A9A /* GoogleParsingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E7B73488377CBE6E75ACFC527E8CA8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91FE1C734ED5478A578556DEA6614DDC /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7492D28AA46AB0FB1F5131C6AF0B2623 /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDE72D6C9883F3C5DFFDDCC17D6F0B95 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		7B7FD1F885E16315E9EE7982B1AF7E2E /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				03689C417845BF129EDCD8BEFC9FDAE4 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		7D315F7498A8FDB459F257E50CC323B6 /* FirebaseStorage */ = {
+			isa = PBXGroup;
+			children = (
+				B86307DCC3464E333B7A0A6F4BB914F7 /* Frameworks */,
+			);
+			path = FirebaseStorage;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CFFFBA3FA0AE516E68CCA1A95A440344 /* Pods */,
+				B08810912234766B92102F1144130ED5 /* Products */,
+				AFB90ABD34E3E237CDD3042DD05DB325 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8231F8E758ECEDE3DA9111E34F506628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77D8CFD62DBE7B74765C681924FA3310 /* GoogleIPhoneUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F23D7D114E85AA715B75AD987DD1AA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DCFCAC3822AC5B6CF049DF7CA37EF4D5 /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		90C9DACDE0A8B718D038FA4467E34C89 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				44A3BA46C93D467F8AC8110CA6B07610 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B883C061ECC4CC9A0F7B7EB5074EFB8 /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				E8169E21CAF076F88C7C87133CD0EC5A /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		A72749EB5C64DFC3F58B3BE7565C1030 /* FirebaseDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				26E5F9E09BED051BD9A0D0D7205C2EDE /* Frameworks */,
+			);
+			path = FirebaseDatabase;
+			sourceTree = "<group>";
+		};
+		AFB90ABD34E3E237CDD3042DD05DB325 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E39D6B01EED72AC4400C523D219B3E12 /* Pods-MCPLabLogin */,
+				C8276303672CEBA7B2D3F9B5DD698401 /* Pods-MCPLabLoginTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B08810912234766B92102F1144130ED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F62F75BCF905AF1E8C44DFBD36E1A5AD /* Pods_MCPLabLogin.framework */,
+				CC326843B0E4859A03F99BB67FD75BC9 /* Pods_MCPLabLoginTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B107378C08EABA5374539C25CF6799B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C4F50420ADA8C3023A4C452505EC067 /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B86307DCC3464E333B7A0A6F4BB914F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAF3A4BBDF369F163BCA8E46EA6D108C /* FirebaseStorage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7563635E6BD6181F8A515207BA620CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F3EB0713F8EB7465904BF4B4881C746 /* FirebaseRemoteConfig.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8276303672CEBA7B2D3F9B5DD698401 /* Pods-MCPLabLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A864FEC897594EADE9EB1EA872BCF56 /* Info.plist */,
+				EE6A23C2511B580F1BFAD5E8210153FF /* Pods-MCPLabLoginTests.modulemap */,
+				413F5F8BEBCBC816091E43633874C890 /* Pods-MCPLabLoginTests-acknowledgements.markdown */,
+				C0E5440F00BC34AF612BB7B333BA1FB5 /* Pods-MCPLabLoginTests-acknowledgements.plist */,
+				032955B6481D2A903119B97514813B80 /* Pods-MCPLabLoginTests-dummy.m */,
+				30FEED3412FE82065B7BAD15E580117D /* Pods-MCPLabLoginTests-frameworks.sh */,
+				2C2634F731BF53A7A865F1312E7B6827 /* Pods-MCPLabLoginTests-resources.sh */,
+				737A310839B0A9A2494272DD078752FE /* Pods-MCPLabLoginTests-umbrella.h */,
+				CAD5CFFFCB8D6183A72239D3C76FBF90 /* Pods-MCPLabLoginTests.debug.xcconfig */,
+				7C415A599B669AC062F7F5870C9F7F65 /* Pods-MCPLabLoginTests.release.xcconfig */,
+			);
+			name = "Pods-MCPLabLoginTests";
+			path = "Target Support Files/Pods-MCPLabLoginTests";
+			sourceTree = "<group>";
+		};
+		CE6B6F50CD65C38B232F2368594E46E5 /* Google-Mobile-Ads-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				095B5EBCF5AF2C186D3608CB207B33F5 /* Frameworks */,
+			);
+			path = "Google-Mobile-Ads-SDK";
+			sourceTree = "<group>";
+		};
+		CFFFBA3FA0AE516E68CCA1A95A440344 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B3A712249C11D41AF14715E4B77263B /* Firebase */,
+				9B883C061ECC4CC9A0F7B7EB5074EFB8 /* FirebaseAnalytics */,
+				1F156283D73640AF5DAF27AC4B7D2F78 /* FirebaseAuth */,
+				E8A3D2B5B559392C2A762898AC86AD7E /* FirebaseCrash */,
+				A72749EB5C64DFC3F58B3BE7565C1030 /* FirebaseDatabase */,
+				20F0D7A5232BC121321BE9A5CCB11524 /* FirebaseInstanceID */,
+				13EEF89F1A4072ADBF2DC51209568740 /* FirebaseRemoteConfig */,
+				7D315F7498A8FDB459F257E50CC323B6 /* FirebaseStorage */,
+				CE6B6F50CD65C38B232F2368594E46E5 /* Google-Mobile-Ads-SDK */,
+				7492D28AA46AB0FB1F5131C6AF0B2623 /* GoogleInterchangeUtilities */,
+				4D321E0E7A8EDB0818FDBC50A8546430 /* GoogleIPhoneUtilities */,
+				19B1F34C14CB29692D9CC8AC455D6984 /* GoogleNetworkingUtilities */,
+				23A35E0E8B1612C768730EDA3B75E474 /* GoogleParsingUtilities */,
+				D66430FEB04AC4C3D13EAA2AD2025230 /* GoogleSymbolUtilities */,
+				FE08C43747B06F219DBB341B33D68232 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D66430FEB04AC4C3D13EAA2AD2025230 /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8F23D7D114E85AA715B75AD987DD1AA5 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		DDE72D6C9883F3C5DFFDDCC17D6F0B95 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A2BA0A18657ADFF98EC02B44482DD42 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E39D6B01EED72AC4400C523D219B3E12 /* Pods-MCPLabLogin */ = {
+			isa = PBXGroup;
+			children = (
+				9918D1E85CBE14E5324E65997E658925 /* Info.plist */,
+				6F0A1FB5E8EACE1B102A19432FBA1743 /* Pods-MCPLabLogin.modulemap */,
+				C375CF6F773746B49BF992F75E219380 /* Pods-MCPLabLogin-acknowledgements.markdown */,
+				308EAE607750A03799D590BA9BB27624 /* Pods-MCPLabLogin-acknowledgements.plist */,
+				29E21582C459D717082CCB826C9E7D59 /* Pods-MCPLabLogin-dummy.m */,
+				3285E735F6CD4C17B478C527338B5A86 /* Pods-MCPLabLogin-frameworks.sh */,
+				F2EEA5BB5811B8B3E1D59B4CF68EB6F4 /* Pods-MCPLabLogin-resources.sh */,
+				E16BEDD18C6243C89CA0DB80967890D3 /* Pods-MCPLabLogin-umbrella.h */,
+				9715B83508EA112049311B4B39E53673 /* Pods-MCPLabLogin.debug.xcconfig */,
+				B83AF2A7D82D196446355FB37A963685 /* Pods-MCPLabLogin.release.xcconfig */,
+			);
+			name = "Pods-MCPLabLogin";
+			path = "Target Support Files/Pods-MCPLabLogin";
+			sourceTree = "<group>";
+		};
+		E8169E21CAF076F88C7C87133CD0EC5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0562A09F132F45237533EE2BB89D3144 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8A3D2B5B559392C2A762898AC86AD7E /* FirebaseCrash */ = {
+			isa = PBXGroup;
+			children = (
+				5D975EED04ED06703F137E041D73810C /* Frameworks */,
+			);
+			path = FirebaseCrash;
+			sourceTree = "<group>";
+		};
+		FE08C43747B06F219DBB341B33D68232 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				90C9DACDE0A8B718D038FA4467E34C89 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		313D34562EF5A5B171BD7B2C568923A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3BD1D0E2562D3EE63212DA2A9328550 /* Pods-MCPLabLoginTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9512BB72E6FDEE5CCED63DF1156C5B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A216CFAE1199DACD548923097AAE47E0 /* Pods-MCPLabLogin-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6F7D0D7128A2647B3A0BABD19ACDD7B9 /* Pods-MCPLabLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3348B7A6D4E95F670D154F64D1E43EFC /* Build configuration list for PBXNativeTarget "Pods-MCPLabLogin" */;
+			buildPhases = (
+				EE60030936A2F7AE9C8700B1E584E67B /* Sources */,
+				7C377F97B02CE233FDEAA28B146E99E6 /* Frameworks */,
+				C9512BB72E6FDEE5CCED63DF1156C5B0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MCPLabLogin";
+			productName = "Pods-MCPLabLogin";
+			productReference = F62F75BCF905AF1E8C44DFBD36E1A5AD /* Pods_MCPLabLogin.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		990E36FA739DDB2F3C625535D5474DEE /* Pods-MCPLabLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F766388D168D29C71C47642109E1BD80 /* Build configuration list for PBXNativeTarget "Pods-MCPLabLoginTests" */;
+			buildPhases = (
+				EB8EC9703022468E343A2435B6DAEB2E /* Sources */,
+				04356206101F1B639FB0731B7A42BD22 /* Frameworks */,
+				313D34562EF5A5B171BD7B2C568923A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MCPLabLoginTests";
+			productName = "Pods-MCPLabLoginTests";
+			productReference = CC326843B0E4859A03F99BB67FD75BC9 /* Pods_MCPLabLoginTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B08810912234766B92102F1144130ED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F7D0D7128A2647B3A0BABD19ACDD7B9 /* Pods-MCPLabLogin */,
+				990E36FA739DDB2F3C625535D5474DEE /* Pods-MCPLabLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB8EC9703022468E343A2435B6DAEB2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE739B5A12F5F52C3CA33C5613938B7F /* Pods-MCPLabLoginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE60030936A2F7AE9C8700B1E584E67B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38DEF968921EF6D0DCF8FA9666B179BD /* Pods-MCPLabLogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A4BDB9EDA10442F579C2761F7631C66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83AF2A7D82D196446355FB37A963685 /* Pods-MCPLabLogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCPLabLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCPLabLogin/Pods-MCPLabLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCPLabLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED732643B9510FE75549C2EA5D9F97A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAD5CFFFCB8D6183A72239D3C76FBF90 /* Pods-MCPLabLoginTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCPLabLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCPLabLoginTests/Pods-MCPLabLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCPLabLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9F64A3152165DA806EE789C6B65E2089 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9715B83508EA112049311B4B39E53673 /* Pods-MCPLabLogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCPLabLogin/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCPLabLogin/Pods-MCPLabLogin.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCPLabLogin;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A389BC3CF8C6D7E2C6D1D3F0F4A97B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C415A599B669AC062F7F5870C9F7F65 /* Pods-MCPLabLoginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MCPLabLoginTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MCPLabLoginTests/Pods-MCPLabLoginTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MCPLabLoginTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3348B7A6D4E95F670D154F64D1E43EFC /* Build configuration list for PBXNativeTarget "Pods-MCPLabLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9F64A3152165DA806EE789C6B65E2089 /* Debug */,
+				2A4BDB9EDA10442F579C2761F7631C66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F766388D168D29C71C47642109E1BD80 /* Build configuration list for PBXNativeTarget "Pods-MCPLabLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ED732643B9510FE75549C2EA5D9F97A /* Debug */,
+				A389BC3CF8C6D7E2C6D1D3F0F4A97B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
